@@ -1,0 +1,137 @@
+.workflowContainer{
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    margin-block-end: 1rem;
+}
+.workflowHeading h3{
+    font-size: 30px;
+    font-weight: 500;
+}
+.workflowBottom{
+    padding-top: 1rem;
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.workflowLeft{
+    flex: 1;
+    padding-left: 8rem;
+}
+.workflowMiddle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex: .8;
+}
+.workflowRight{
+    flex: 1;
+    padding-right: 8rem;
+}
+.workflowLeftUpper{
+    padding-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.workflowLeftUpper img{
+    width: 3rem;
+    height: 3rem
+}
+.workflowLeftLower{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.workflowLeftLower img{
+    width: 3rem;
+    height: 3rem
+}
+.workflowRightUpper{
+    padding-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.workflowRightUpper img{
+    width: 3rem;
+    height: 3rem
+}
+.workflowRightLower{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.workflowRightLower img{
+    width: 3rem;
+    height: 3rem
+}
+.workflowMiddle{
+    border-radius: 50%;
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+}
+.workflowMiddle img{
+    width: 15rem;
+    height: 15rem;
+}
+.exploreBtn {
+    padding-top: 3rem;
+}
+.exploreBtn button{
+    color: white;
+    background-color: blue;
+    width: 8rem;
+    height: 2.5rem;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;;
+}
+
+@media screen and (max-width:900px){
+    .workflowHeading h3 {
+        font-size: 24px;
+        padding-left: 2rem;
+    }
+    .workflowContainer{
+        flex-direction: column;
+    }
+    /* .workflowLeftUpper{
+        padding-bottom: 2rem;
+    }
+    .workflowRightUpper{
+        padding-bottom: 2rem;
+    } */
+    .workflowLeft{
+        flex: 3;
+        padding-left: 1rem;
+    }
+    .workflowMiddle{
+        flex: 1;
+    }
+    .workflowRight{
+        flex: 3;
+        padding-right: 1rem;
+    }
+    .workflowBottom h4{
+        font-size: 0.8rem;
+    }
+    .workflowBottom p{
+        font-size: 0.8rem;
+    }
+    /* #workflowLogo{
+        width: 2rem;
+        height: 2rem;
+    } */
+    .workflowMiddle img {
+        width: 10rem;
+        height: 10rem;
+    }
+}

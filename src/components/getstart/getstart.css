@@ -1,0 +1,143 @@
+html, body{
+    width: 100%;
+    height: fit-content;
+    padding-block-end: 3rem;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+.getstartContainer{
+    background: linear-gradient(101.59deg, #181623 0.73%, #17245B 99.5%);
+    width: 100%;
+    height: fit-content;
+    padding-block-end: 3rem;
+    /* height: 100vh; */
+    display: flex;
+}
+.getstartLeft{
+    width: 50%;
+    /* flex: 1; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.getstartRight{
+    width: 50%;
+    /* flex: 1; */
+}
+.getstartLeft .getrightHeading h1{
+    font-size: 2.7rem;
+}
+.getstartLeft h1{
+    font-size: 4.2rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    color: white;
+    padding-left: 5rem;
+}
+
+.getstartLeft p{
+    font-weight: 300;
+    font-size: 1.5rem;
+    color: white;
+    padding-bottom: 1rem;
+    padding-left: 5rem;
+}
+
+.getstartLeft button{
+    background-color: #0030FF;
+    color: white;
+    border-radius: 500px;
+    width: 150px;
+    height: 50px;
+    border: none;
+    left: 0;
+    cursor: pointer;
+}
+.getRightImg1{
+    height: 50%;
+    width: 65%;
+    padding-top: 7%;
+    padding-left: 18%;
+    /* position: absolute; */
+    display: flex;
+    z-index: 1;
+}
+.getRightImg2{
+    /* position: absolute; */
+    height: 30%;
+    width: 44%;
+    padding-left: 4%;
+}
+.getrightButton{
+    padding-top: 1rem;
+    /* padding-right: 15rem; */
+    margin-left: -10rem;
+}
+
+
+@media screen and (max-width:1040px){
+    .getRightImg2{
+        display: none;
+    }
+    .getRightImg1{
+        height: 57%;
+        width: 104%;
+        padding-top: 37%;
+        padding-left: 0%;
+    }
+    .getstartLeft h1{
+        font-size: 1.3rem;
+        padding-left: 1rem;
+    }
+    .getstartLeft p {
+        font-size: 1rem;
+        padding-left: 1rem;
+
+    }
+    .getrightButton {
+        margin-left: 0;
+        padding-top: 1rem;
+    }
+    .getstartLeft .getrightHeading h1 {
+        font-size: 1.5rem;
+        padding-top: 3rem;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

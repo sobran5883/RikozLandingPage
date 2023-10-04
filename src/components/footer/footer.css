@@ -1,0 +1,143 @@
+.footerWrapper{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    background: linear-gradient(262.72deg, #172458 0.01%, #191726 99.6%);
+}
+.footerLogo{
+    padding-right: 3rem;
+    padding-left: 5rem;
+}
+.footerContainer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3rem;
+    padding-top: 3rem;
+    color: white;
+    background: linear-gradient(262.72deg, #172458 0.01%, #191726 99.6%);
+}
+.footerCompany{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+}
+.footerCompany h5{
+    padding-bottom: 1rem;
+    font-size: 20px;
+}
+.footerCompany li{
+    padding-bottom: 0.5rem;
+    list-style-type: none;
+    color: #EEEEEE;
+}
+.footerServices{
+    padding-left: 3rem;
+    padding-right: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footerServices h5{
+    padding-bottom: 1rem;
+    font-size: 20px;
+}
+.footerServices li{
+    padding-bottom: 0.5rem;
+    list-style-type: none;
+    color: #EEEEEE;
+}
+.footerMail h5{
+    padding-bottom: 0.5rem;
+    font-size: 20px;
+}
+.footerContacts{
+    padding-right: 3rem;
+}
+.footerContact h5{
+    padding-bottom: 0.5rem;
+    padding-top: 1rem;
+    font-size: 20px;
+}
+.footerIcons{
+    padding-top: 1rem;
+}
+.footerSubs{
+    padding-right: 4rem;
+}
+.footerSubs h5{
+    font-weight: 500;
+    padding-right: 5rem;
+    padding-bottom: 0.5rem;
+    padding-top: 1rem;
+    font-size: 17px;
+}
+
+.footerHr{
+    color: black;
+}
+
+.footerWrapper{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.footerWrapper hr{
+    width: 80rem;
+    margin-top: 3rem;
+}
+.footerHr p{
+    color: white;
+    padding-top: 3rem;
+    padding-left: 33rem;
+}
+#footerMiddle{
+    display: flex;
+}
+#footerbottom{
+    display: flex;
+    justify-content: space-between;
+}
+.footerSearch input{
+    width: 10rem;
+    color: white;
+    background-color: #172458;
+    border: 2px soid white;
+
+}
+
+@media screen and (max-width:900px){
+    .footerLogo{
+        padding-left: 2rem;
+    }
+    .footerContainer{
+        display: flex;
+        flex-direction: column;
+        padding-left: 2rem;
+    }
+    #footerMiddle{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .footerCompany li{
+        padding-right: 3rem;
+        padding-bottom: 1rem;
+    }
+    .footerServices li{
+        padding-bottom: 1rem;
+    }
+    .footerContacts{
+        padding-left: 2rem;
+    }
+    .footerSearch{
+        color: white;
+        width: 5rem;
+        height: 3rem;
+    }
+
+
+}
+
+
+

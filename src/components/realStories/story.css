@@ -1,0 +1,93 @@
+.storyContainer{
+    width: 100%;
+    height: fit-content;
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(11, 12, 25);
+    /* padding-top: 3rem; */
+}
+.storyHeading{
+    font-size: 24px;
+    color: white;
+    padding-bottom: 4rem;
+}
+.storyHeading h4{
+    font-weight: 500;
+    font-size: 47px;
+    padding-top: 3rem;
+}
+.stories{
+    display: flex;
+    display: grid;
+    padding-left: 12rem;
+    padding-right: 12rem;
+    grid-template-columns: repeat(3,1fr);
+    margin-bottom: 3rem;
+    /* grid-gap: 1rem; */
+}
+.story{
+    height: fit-content;
+    width: 60%;
+    border-radius: 26px;
+    background-color: white;
+    padding: 2rem;
+}
+.profile{
+    display: flex;
+    padding-bottom: 1rem;
+}
+.profile img{
+    height: 3rem;
+    width: 3rem;
+}
+.details h4{
+    font-size: 0.9rem;
+}
+.details h5{
+    font-weight: normal;
+}
+.details{
+    padding-left: 1rem;
+    padding-top: 0.5rem;
+}
+.profileHeading{
+    padding-bottom: 1rem;
+}
+.profileHeading h3{
+    font-size: 1rem;
+}
+.profilePara{
+    padding-bottom: 1rem;
+}
+.profilePara p{
+    font-size: 0.6rem;
+}
+.name{
+    padding-bottom: 0;
+}
+
+@media screen and (max-width:900px){
+    .stories{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 1rem;
+        padding-left: 3rem;
+        padding-right: 1rem;
+    }
+    .story{
+        padding: 1.5rem;
+    }
+    .storyHeading h4 {
+        font-size: 22px;
+        padding-left: 2rem;
+    }
+    .storyHeading{
+        padding-bottom: 2rem;
+    }
+    .name{
+        padding-bottom: 0rem;
+    }
+}
